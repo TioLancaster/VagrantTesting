@@ -16,3 +16,5 @@ sudo parted -a optimal -- /dev/sdc unit compact mkpart primary ext4 "1" "-1"
 #format partions
 sudo mkfs.ext4 /dev/sdb1 -F
 sudo mkfs.ext4 /dev/sdc1 -F
+
+#testing
